@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Join Thamani Initiative</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Quicksand&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Join Thamani Initiative</h1>
+    <p class="slogan">Step into healing, growth, and legacy 🌸</p>
+  </header>
+
+  <section class="form-section">
+    <h2>Sign Up Form</h2>
+    <p>Fill in your details below to join our mentorship, healing circles, or tech empowerment programs.</p>
+
+    <form action="https://formspree.io/f/xandvlpa" method="POST">
+      <label for="name">Full Name:</label><br>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="email">Email Address:</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="level">Education Level:</label><br>
+      <select id="level" name="level" required>
+        <option value="">--Select--</option>
+        <option value="O-Level">O-Level</option>
+        <option value="A-Level">A-Level</option>
+        <option value="University">University</option>
+        <option value="Out of School">Out of School</option>
+      </select><br><br>
+
+      <label for="interest">What are you interested in?</label><br>
+      <input type="checkbox" name="interest" value="Mentorship"> Mentorship<br>
+      <input type="checkbox" name="interest" value="Healing Circles"> Healing Circles<br>
+      <input type="checkbox" name="interest" value="Tech Empowerment"> Tech Empowerment<br><br>
+
+      <label for="message">Tell us a bit about yourself:</label><br>
+      <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+      <button type="submit" class="button">Submit</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>Made with love by Asia Abeid 💖</p>
+  </footer>
+</body>
+</html>
