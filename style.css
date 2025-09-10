@@ -128,3 +128,153 @@ form button {
   margin-top: 1rem;
   color: #6e3c5e;
 }
+
+/* WhatsApp Group Links Section */
+.group-links {
+  background-color: #fffafc;
+  border: 1px solid #f3d9e0;
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Quicksand', sans-serif;
+  margin-top: 2rem;
+  box-shadow: 0 2px 8px rgba(243, 217, 224, 0.3);
+}
+
+.group-links h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8rem;
+  color: #c94f7c;
+  margin-bottom: 1rem;
+}
+
+.group-links p {
+  font-size: 1rem;
+  color: #5c5c5c;
+  margin-bottom: 1.5rem;
+}
+
+.group-links ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.group-links li {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background-color: #fff0f5;
+  border-left: 4px solid #c94f7c;
+  border-radius: 8px;
+}
+
+.group-links strong {
+  font-size: 1.1rem;
+  color: #c94f7c;
+}
+
+.group-links a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #c94f7c;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.group-links a:hover {
+  background-color: #a83863;
+}
+
+/* General Page Styling */
+body {
+  font-family: 'Quicksand', sans-serif;
+  background-color: #fffafc;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #fce4ec;
+  padding: 2rem;
+  text-align: center;
+  border-bottom: 1px solid #f3d9e0;
+}
+
+header h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  color: #c94f7c;
+  margin-bottom: 0.5rem;
+}
+
+header .slogan {
+  font-size: 1rem;
+  color: #5c5c5c;
+}
+
+/* Group Links Section */
+.group-links {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.group-links h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.6rem;
+  color: #c94f7c;
+  margin-bottom: 1rem;
+}
+
+.group-links p {
+  font-size: 1rem;
+  color: #5c5c5c;
+  margin-bottom: 2rem;
+}
+
+.group-links ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.group-links li {
+  background-color: #fff0f5;
+  border-left: 4px solid #c94f7c;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+}
+
+.group-links strong {
+  font-size: 1.1rem;
+  color: #c94f7c;
+}
+
+.group-links a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #c94f7c;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.group-links a:hover {
+  background-color: #a83863;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #fce4ec;
+  color: #5c5c5c;
+  font-size: 0.9rem;
+  border-top: 1px solid #f3d9e0;
+}
